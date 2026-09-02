@@ -2,12 +2,6 @@
 #include <stdlib.h>
 #include "arvore.h"
 
-struct arv {
-    char info;
-    struct arv* esq;
-    struct arv* dir;
-};
-
 Arv* arv_criavazia(void) {
     return NULL;
 }
